@@ -1,26 +1,26 @@
 # nuxt-univ-starter
 
-develop-github\nuxt(node12.18.0)\nuxt-start
-node:v12.18.0
+develop-github\nuxt(node12.18.0)\nuxt-start  
+node:v12.18.0  
 npm v6.14.4
 
 ### アプリケーションの概要
 
 スターターテンプレート nuxt.config.js setting  
-1.pug
-2.sass
-3.sass 変数
-4.autoprefixer
-5.eslintrc.js console.log
+1.pug  
+2.sass  
+3.sass 変数  
+4.autoprefixer  
+5.eslintrc.js console.log  
 6.eslint error
 
-css setting
-1.styles.scss(import)
-2.style-guode.scss(sass 変数)
-3.foundation
-4.layout
-5.component
-6.project
+css setting  
+1.styles.scss(import)  
+2.style-guode.scss(sass 変数)  
+3.foundation  
+4.layout  
+5.component  
+6.project  
 7.utilitty
 
 ## Build Setup
