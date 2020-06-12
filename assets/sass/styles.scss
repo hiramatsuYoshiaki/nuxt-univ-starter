@@ -1,3 +1,5 @@
-.body {
-  color: green;
-}
+@import 'foundation/normalize';
+@import 'foundation/default';
+@import 'foundation/typography';
+@import 'layout/glid';
+@import 'component/card-layout';

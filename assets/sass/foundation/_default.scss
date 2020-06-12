@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: $white;
+  font-size: 62.5%; //62.5% 1rem=10px
+  min-width: $body-min-width;
+  font-family: $family-sans-serif;
+}
+body {
+  color: $black-ter;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

@@ -1,17 +1,39 @@
 <template lang="pug">
-  div.container 
-    div 
-     logo
-     h1.title NUXT-UNIV-STARTER 
-     h2.subtitle Nuxt project starter confun setting 
-      div 1.pug
-      div 2.sass
-      div 3.sass 変数
-      div 4.autoprefixer
-      div 5.eslintrc.js console.log
-      div 6.eslint error
+  div.main-wrape
+      div.container 
+        div 
+          logo
+          h1.title NUXT-UNIV-STARTER
+          //- h1.title NUXT-CSS-LAYOUT 
+          //- h2.subtitle Nuxt project css layout starter
+          //-     div 1. HOME
+          //-     div 2. EXPROLER
+          //-     div 3. LAYOUT
+          //-     div 4. NAVIGATION
+          //-     div 5. INPUT
+          //-     div 6. DISPLAY
+          //-     div 7. FEEDBACK
 
+          div.rem size 1.6rem = 16px
+          div.pxs size  16px = 1.6rem
+          div.em size 1.6em = 16px
+           
+          div.rem-box 
+            p 10rem box 
+          div.px-box 
+            p 100px box
 
+          div.rem10 size 10rem
+          div.px100 size 100px
+          h1 h1 令和2年 
+          h2 h2 令和2年 
+          h3 h3 令和2年
+          h4 h4 令和2年
+          h5 h5 令和2年
+          h6 h6 令和2年
+          div.h7 div.h7令和2年
+          p p 令和2年
+      
 </template>
 <script>
 import Logo from '~/components/Logo.vue'
@@ -23,8 +45,46 @@ export default {
 }
 </script>
 
-<style>
-.container {
+<style scope lang="scss">
+// * {
+//   border: 1px solid $grey-lighter;
+// }
+.rem10 {
+  font-size: 10rem;
+  color: $blue;
+}
+.px100 {
+  font-size: 100px;
+  color: $red;
+}
+
+.rem-box {
+  font-size: 10rem;
+  width: 50rem;
+  height: 20rem;
+  background-color: $blue;
+}
+.px-box {
+  font-size: 100px;
+  width: 500px;
+  height: 200px;
+  background-color: $red;
+}
+
+.rem {
+  font-size: 1.6rem;
+  color: $blue;
+}
+.pxs {
+  font-size: 16px;
+  color: $red;
+}
+
+.em {
+  font-size: 1.6em;
+  color: $purple;
+}
+/* .container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -53,5 +113,5 @@ export default {
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>

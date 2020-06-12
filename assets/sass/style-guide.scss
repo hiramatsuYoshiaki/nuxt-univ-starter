@@ -1,2 +1,65 @@
 // style guide
-$pink: pink;
+// Colors
+
+$black: hsl(0, 0%, 4%) !default;
+$black-bis: hsl(0, 0%, 7%) !default;
+$black-ter: hsl(0, 0%, 14%) !default;
+
+$grey-darker: hsl(0, 0%, 21%) !default;
+$grey-dark: hsl(0, 0%, 29%) !default;
+$grey: hsl(0, 0%, 48%) !default;
+$grey-light: hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+
+$white-ter: hsl(0, 0%, 96%) !default;
+$white-bis: hsl(0, 0%, 98%) !default;
+$white: hsl(0, 0%, 100%) !default;
+
+$orange: hsl(14, 100%, 53%) !default;
+$yellow: hsl(48, 100%, 67%) !default;
+$green: hsl(141, 71%, 48%) !default;
+$turquoise: hsl(171, 100%, 41%) !default;
+$cyan: hsl(204, 86%, 53%) !default;
+$blue: hsl(217, 71%, 53%) !default;
+$purple: hsl(271, 100%, 71%) !default;
+$red: hsl(348, 100%, 61%) !default;
+
+$buycolor: #b6c1c7 !default;
+$your-solution: lightcoral !default;
+
+// Typography
+
+$family-sans-serif: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体',
+  'YuGothic', 'Gilroy-Semibold', 'BlinkMacSystemFont', '-apple-system',
+  'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+  'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$family-monospace: monospace !default;
+$render-mode: optimizeLegibility !default;
+
+$size-1: 5rem !default;
+$size-2: 4rem !default;
+$size-3: 3rem !default;
+$size-4: 2rem !default;
+$size-5: 1.5rem !default;
+$size-6: 1rem !default;
+$size-7: 0.75rem !default;
+$size-8: 0.5rem !default;
+
+$weight-light: 300 !default;
+$weight-normal: 400 !default;
+$weight-medium: 500 !default;
+$weight-semibold: 600 !default;
+$weight-bold: 700 !default;
+
+// $font-size: 16px;
+$font-size: 62.5% !default;
+$font-size-px: 16px !default;
+
+//header
+$header-height: 4rem !default;
+
+//body
+$body-min-width: 375px !default;
+
+//footer
